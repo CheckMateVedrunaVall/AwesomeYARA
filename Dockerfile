@@ -37,7 +37,7 @@ RUN apk add --no-cache -t .build-deps py3-setuptools \
     mkdir app/converter
 COPY /$RULEDIR/ /app/rules/
 COPY /$SAMPLEDIR/ /app/samples/
-COPY /converter/ /app/converter/
+COPY /Converter/ /app/converter/
 WORKDIR /app
 
 # Volumes
