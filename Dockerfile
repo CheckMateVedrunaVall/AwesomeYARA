@@ -5,7 +5,7 @@ FROM alpine:3.16
 ENV YARA_VERSION 4.2.3
 ENV SAMPLEDIR Samples 
 ENV RULEDIR Rules
-RUN apk add --no-cache openssl file jansson bison python3 tini su-exec
+RUN apk add --no-cache openssl file jansson bison python3 tini su-exec p7zip
 RUN apk add --no-cache -t .build-deps py3-setuptools \
     openssl-dev \
     jansson-dev \
