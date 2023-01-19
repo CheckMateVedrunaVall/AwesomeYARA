@@ -110,6 +110,10 @@ docker exec -it [nombre del contenedor] sh
 
 docker stop [nombre del contenedor]
 
+### Descomprimir samples
+
+7z x -p[contraseña] archivo.zip
+
 ### Ejecutar YARA
 
 yara -s [/rules/regla.yar] [/samples/malware.exe]
