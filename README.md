@@ -90,39 +90,39 @@ rule syntaxTest {
 
 ### Descargar repositorio
 
-git clone [enlace]
+`git clone [enlace]`
 
 ### Construir la imagen
 
-docker build -t yara .
+`docker build -t yara .`
 
 ### Crear y ejecutar el contenedor
 
-docker run --name [nombre del contenedor] -it [nombre de la imagen]
+`docker run --name [nombre del contenedor] -it [nombre de la imagen]`
 
 ### Iniciar el contenedor en caso de tenerlo montado
 
-docker start [nombre del contenedor]
+`docker start [nombre del contenedor]`
 
 ### Entrar al contenedor una vez iniciado
 
-docker exec -it [nombre del contenedor] sh
+`docker exec -it [nombre del contenedor] sh`
 
 ### Apagar el contenedor
 
-docker stop [nombre del contenedor]
+`docker stop [nombre del contenedor]`
 
 ### Descomprimir samples
 
-7z x -p[contraseña] archivo.zip
+`7z x -p[contraseña] archivo.zip`
 
 ### Ejecutar YARA
 
-yara -s [/rules/regla.yar] [/samples/malware.exe]
+`yara -s [/rules/regla.yar] [/samples/malware.exe]`
 
 #### Ejemplo
 
-yara -s /rules/babuk.yar /malware/e_win.exe
+`yara -s /rules/babuk.yar /malware/e_win.exe`
 
 ### Eliminar el double byte encoding
 
