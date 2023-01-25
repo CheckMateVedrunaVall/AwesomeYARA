@@ -41,8 +41,8 @@ COPY /Converter/ /app/converter/
 WORKDIR /app
 
 # Volumes
-VOLUME ["/samples"]
-VOLUME ["/rules"]
+VOLUME ["/app/samples"]
+VOLUME ["/app/rules"]
 
 # Start
 ENTRYPOINT ["sh"]
