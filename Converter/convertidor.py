@@ -1,4 +1,4 @@
-#/usr/bin/python3
+#!/usr/bin/python3
 
 cadena = input("Escribe aquí tu cadena: ")
 converter = cadena.replace("\\x00", "")
