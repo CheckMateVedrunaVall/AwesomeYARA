@@ -94,7 +94,7 @@ rule syntaxTest {
 
 ### Construir la imagen
 
-`docker build -t yara .`
+`docker build -t yara:latest .`
 
 ### Crear y ejecutar el contenedor
 
