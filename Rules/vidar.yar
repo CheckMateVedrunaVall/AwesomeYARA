@@ -1,4 +1,4 @@
-rule vidar : Stealer {
+rule vidar_wallets : Stealer {
     meta:
         Author = "Checkmate"
         Description = "Simple rule to detect vidar stealer looking for wallets"
